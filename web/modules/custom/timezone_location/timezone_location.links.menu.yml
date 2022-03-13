@@ -1,0 +1,6 @@
+timezone_location.timezone_location_config_form:
+  title: 'Timezone Location Settings'
+  route_name: timezone_location.timezone_location_config_form
+  description: 'Settings for timezone Location.'
+  parent: system.admin_config_system
+  weight: 99

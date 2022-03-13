@@ -1,0 +1,4 @@
+services:
+  timezone_location.timezone_location_time:
+    class: Drupal\timezone_location\GetTimezoneLocation
+    arguments: ['@datetime.time','@date.formatter']

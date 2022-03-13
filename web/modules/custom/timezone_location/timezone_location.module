@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+
+function timezone_location_theme() {
+  return [
+    'timezone_datetime_block' => [
+      'template'=>'timezone-datetime-block',
+      'variables' => [
+        'data' => null,
+      ],
+    ],
+  ];
+}

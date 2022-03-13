@@ -1,0 +1,6 @@
+name: 'timezone_location'
+type: module
+description: 'Timezone location configuration'
+core_version_requirement: ^8.9 || ^9
+package: 'Custom'
+configure: timezone_location.timezone_location_config_form
